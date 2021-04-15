@@ -438,13 +438,21 @@
         <button type="button" class="btn btn-lg btn-outline-success" id="submitButton" onclick="validateForm()">Submit</button>
       </form>
 
-      <!-- Dialog flow bot  -->
+      <!-- Dialog flow bot 
       <div class="agent-box">
         <iframe id="chat-bot" height="400" width="500" src="https://bot.dialogflow.com/d854ce2a-8fb4-41a4-9fa8-9e498be1accf"></iframe>
         <div id="bot-display"> 
             <i class="fas fa-comments-alt fa-3x bot-icon"></i>
         </div>
-      </div>
+      </div> -->
+
+      
+      <df-messenger
+        intent="WELCOME"
+        chat-title="Batuhan&#x27;s_Bikes-Ruchira"
+        agent-id="d854ce2a-8fb4-41a4-9fa8-9e498be1accf"
+        language-code="en"
+      ></df-messenger>
       
     </div>
   </section>
@@ -465,7 +473,7 @@
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="scripts/index.js" charset="utf-8"></script>
-
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   <script>
 
     const chatBot = document.getElementById("chat-bot")
@@ -473,9 +481,10 @@
 
     botBtn.addEventListener('click', () => {
       chatBot.style.display === 'none' ? chatBot.style.display = 'inline-block' : chatBot.style.display = 'none';
-    })
+    });
 
   </script>
+
 </body>
 
 
