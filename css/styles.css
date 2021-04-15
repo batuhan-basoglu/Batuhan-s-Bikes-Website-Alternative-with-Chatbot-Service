@@ -262,11 +262,6 @@ input:invalid+span:after {
     position: absolute;
     content: '✖';
     padding-left: 5px;
-    <<<<<<< HEAD
-}
-
-input:valid+span:after {
-    =======
 }
 
 input:valid+span:after {
@@ -285,8 +280,6 @@ input:valid+span:after {
 
 
 /* Footer section */
-
-#footer {}
 
 .social-icon {
     margin: 20px 10px;
@@ -354,4 +347,23 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #fa4664;
+}
+
+.agent-box{
+    text-align: right;
+}
+#chat-bot{
+    display: none;
+    
+}
+
+#bot-display{
+    
+}
+.bot-icon{
+    color: #34626c;
+}
+
+.bot-icon:hover {
+    color: rgb(216, 181, 24);
 }
