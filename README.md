@@ -1,8 +1,8 @@
-# SEG3125-LAB10
+# Batuhan's Bikes Website Alternative with Chatbot Service
 
 The chatbot service company website made by Ruchira Perrera, Sam Oyediran, Batuhan Basoglu, and Kene Ojukwu
 
-https://arctichawk1.github.io/SEG3125-LAB10/
+https://arctichawk1.github.io/Batuhan-s-Bikes-Website-Alternative-with-Chatbot-Service/
 
 
 Noteable bugs in the website 
